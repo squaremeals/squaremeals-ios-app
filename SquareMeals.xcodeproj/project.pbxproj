@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AD94ADF1F8BF2F3005A97CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD94ADE1F8BF2F3005A97CB /* AppDelegate.swift */; };
-		4AD94AE11F8BF2F3005A97CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD94AE01F8BF2F3005A97CB /* ViewController.swift */; };
-		4AD94AE41F8BF2F3005A97CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD94AE21F8BF2F3005A97CB /* Main.storyboard */; };
 		4AD94AE61F8BF2F3005A97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD94AE51F8BF2F3005A97CB /* Assets.xcassets */; };
 		4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */; };
 		4AD94AF41F8BF2F3005A97CB /* SquareMealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD94AF31F8BF2F3005A97CB /* SquareMealsTests.swift */; };
+		8E7ACCC16B7A1235D4C29A93 /* Pods_SquareMealsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5969EA190B1E6D6D14AE0B6 /* Pods_SquareMealsTests.framework */; };
+		D2999FD47591AE4F50EE8B1D /* Pods_SquareMeals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +25,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMealsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests.release.xcconfig"; sourceTree = "<group>"; };
+		262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareMeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD94ADB1F8BF2F3005A97CB /* SquareMeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareMeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AD94ADE1F8BF2F3005A97CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AD94AE01F8BF2F3005A97CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4AD94AE31F8BF2F3005A97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AD94AE51F8BF2F3005A97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AD94AE81F8BF2F3005A97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AD94AEA1F8BF2F3005A97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD94AEF1F8BF2F3005A97CB /* SquareMealsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareMealsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD94AF31F8BF2F3005A97CB /* SquareMealsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareMealsTests.swift; sourceTree = "<group>"; };
 		4AD94AF51F8BF2F3005A97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532D243CD773BF800EBDD6F1 /* Pods-SquareMeals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMeals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMeals/Pods-SquareMeals.debug.xcconfig"; sourceTree = "<group>"; };
+		8A822D2D480446C5ABE8E0B8 /* Pods-SquareMeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMeals/Pods-SquareMeals.release.xcconfig"; sourceTree = "<group>"; };
+		D5969EA190B1E6D6D14AE0B6 /* Pods_SquareMealsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareMealsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3EFCA996C609A998AF780B /* Pods-SquareMealsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMealsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2999FD47591AE4F50EE8B1D /* Pods_SquareMeals.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +53,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7ACCC16B7A1235D4C29A93 /* Pods_SquareMealsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D283AFE821BBC793F4BF341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */,
+				D5969EA190B1E6D6D14AE0B6 /* Pods_SquareMealsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AD94AD21F8BF2F3005A97CB = {
 			isa = PBXGroup;
 			children = (
 				4AD94ADD1F8BF2F3005A97CB /* SquareMeals */,
 				4AD94AF21F8BF2F3005A97CB /* SquareMealsTests */,
 				4AD94ADC1F8BF2F3005A97CB /* Products */,
+				583DE1C3742AD193FF38D1FE /* Pods */,
+				3D283AFE821BBC793F4BF341 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +92,6 @@
 		4AD94ADD1F8BF2F3005A97CB /* SquareMeals */ = {
 			isa = PBXGroup;
 			children = (
-				4AD94ADE1F8BF2F3005A97CB /* AppDelegate.swift */,
-				4AD94AE01F8BF2F3005A97CB /* ViewController.swift */,
-				4AD94AE21F8BF2F3005A97CB /* Main.storyboard */,
 				4AD94AE51F8BF2F3005A97CB /* Assets.xcassets */,
 				4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */,
 				4AD94AEA1F8BF2F3005A97CB /* Info.plist */,
@@ -96,6 +108,17 @@
 			path = SquareMealsTests;
 			sourceTree = "<group>";
 		};
+		583DE1C3742AD193FF38D1FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				532D243CD773BF800EBDD6F1 /* Pods-SquareMeals.debug.xcconfig */,
+				8A822D2D480446C5ABE8E0B8 /* Pods-SquareMeals.release.xcconfig */,
+				ED3EFCA996C609A998AF780B /* Pods-SquareMealsTests.debug.xcconfig */,
+				22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD94AF81F8BF2F3005A97CB /* Build configuration list for PBXNativeTarget "SquareMeals" */;
 			buildPhases = (
+				DA77E9CACCF4F452A092EC38 /* [CP] Check Pods Manifest.lock */,
 				4AD94AD71F8BF2F3005A97CB /* Sources */,
 				4AD94AD81F8BF2F3005A97CB /* Frameworks */,
 				4AD94AD91F8BF2F3005A97CB /* Resources */,
+				6373398D5605083946E015C3 /* [CP] Embed Pods Frameworks */,
+				7F831C036101D31096EEC432 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD94AFB1F8BF2F3005A97CB /* Build configuration list for PBXNativeTarget "SquareMealsTests" */;
 			buildPhases = (
+				EA54F6F1B1CD7B95F4AB6783 /* [CP] Check Pods Manifest.lock */,
 				4AD94AEB1F8BF2F3005A97CB /* Sources */,
 				4AD94AEC1F8BF2F3005A97CB /* Frameworks */,
 				4AD94AED1F8BF2F3005A97CB /* Resources */,
+				CB55F4FA72FCF367F5D7B949 /* [CP] Embed Pods Frameworks */,
+				D8844F193EBB26A8D0BBA733 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,7 +210,6 @@
 			files = (
 				4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */,
 				4AD94AE61F8BF2F3005A97CB /* Assets.xcassets in Resources */,
-				4AD94AE41F8BF2F3005A97CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +222,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6373398D5605083946E015C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquareMeals/Pods-SquareMeals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F831C036101D31096EEC432 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquareMeals/Pods-SquareMeals-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB55F4FA72FCF367F5D7B949 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8844F193EBB26A8D0BBA733 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA77E9CACCF4F452A092EC38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA54F6F1B1CD7B95F4AB6783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AD94AD71F8BF2F3005A97CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD94AE11F8BF2F3005A97CB /* ViewController.swift in Sources */,
-				4AD94ADF1F8BF2F3005A97CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AD94AE21F8BF2F3005A97CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AD94AE31F8BF2F3005A97CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,6 +462,7 @@
 		};
 		4AD94AF91F8BF2F3005A97CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532D243CD773BF800EBDD6F1 /* Pods-SquareMeals.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +478,7 @@
 		};
 		4AD94AFA1F8BF2F3005A97CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A822D2D480446C5ABE8E0B8 /* Pods-SquareMeals.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,8 +494,8 @@
 		};
 		4AD94AFC1F8BF2F3005A97CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3EFCA996C609A998AF780B /* Pods-SquareMealsTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EFTW5NYHY;
@@ -398,8 +511,8 @@
 		};
 		4AD94AFD1F8BF2F3005A97CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EFTW5NYHY;

@@ -1,0 +1,6 @@
+framework module Pods_SquareMeals {
+  umbrella header "Pods-SquareMeals-umbrella.h"
+
+  export *
+  module * { export * }
+}
