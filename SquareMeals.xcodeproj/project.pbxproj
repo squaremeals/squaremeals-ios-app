@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A912F041F8EFB9900113581 /* CKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F031F8EFB9900113581 /* CKService.swift */; };
+		4A912F061F8EFC0700113581 /* CKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F051F8EFC0700113581 /* CKError.swift */; };
+		4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F071F8EFC2500113581 /* CKWrapper.swift */; };
+		4A912F0A1F8EFC5000113581 /* CKFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F091F8EFC5000113581 /* CKFields.swift */; };
 		4AD94AE61F8BF2F3005A97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD94AE51F8BF2F3005A97CB /* Assets.xcassets */; };
 		4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */; };
 		4AD94AF41F8BF2F3005A97CB /* SquareMealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD94AF31F8BF2F3005A97CB /* SquareMealsTests.swift */; };
@@ -27,6 +31,10 @@
 /* Begin PBXFileReference section */
 		22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMealsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests.release.xcconfig"; sourceTree = "<group>"; };
 		262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareMeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A912F031F8EFB9900113581 /* CKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKService.swift; sourceTree = "<group>"; };
+		4A912F051F8EFC0700113581 /* CKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKError.swift; sourceTree = "<group>"; };
+		4A912F071F8EFC2500113581 /* CKWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKWrapper.swift; sourceTree = "<group>"; };
+		4A912F091F8EFC5000113581 /* CKFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFields.swift; sourceTree = "<group>"; };
 		4AD94ADB1F8BF2F3005A97CB /* SquareMeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareMeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD94AE51F8BF2F3005A97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AD94AE81F8BF2F3005A97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +77,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4A912F011F8EFB7400113581 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A912F021F8EFB7A00113581 /* CloudKit */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A912F021F8EFB7A00113581 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				4A912F031F8EFB9900113581 /* CKService.swift */,
+				4A912F051F8EFC0700113581 /* CKError.swift */,
+				4A912F071F8EFC2500113581 /* CKWrapper.swift */,
+				4A912F091F8EFC5000113581 /* CKFields.swift */,
+			);
+			path = CloudKit;
+			sourceTree = "<group>";
+		};
 		4AD94AD21F8BF2F3005A97CB = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +122,7 @@
 				4AD94AE51F8BF2F3005A97CB /* Assets.xcassets */,
 				4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */,
 				4AD94AEA1F8BF2F3005A97CB /* Info.plist */,
+				4A912F011F8EFB7400113581 /* Model */,
 			);
 			path = SquareMeals;
 			sourceTree = "<group>";
@@ -175,6 +203,7 @@
 				TargetAttributes = {
 					4AD94ADA1F8BF2F3005A97CB = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					4AD94AEE1F8BF2F3005A97CB = {
@@ -320,6 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */,
+				4A912F041F8EFB9900113581 /* CKService.swift in Sources */,
+				4A912F0A1F8EFC5000113581 /* CKFields.swift in Sources */,
+				4A912F061F8EFC0700113581 /* CKError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,12 +498,14 @@
 			baseConfigurationReference = 532D243CD773BF800EBDD6F1 /* Pods-SquareMeals.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EFTW5NYHY;
 				INFOPLIST_FILE = SquareMeals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.shakd.SquareMeals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -481,6 +516,7 @@
 			baseConfigurationReference = 8A822D2D480446C5ABE8E0B8 /* Pods-SquareMeals.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EFTW5NYHY;
 				INFOPLIST_FILE = SquareMeals/Info.plist;
@@ -496,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED3EFCA996C609A998AF780B /* Pods-SquareMealsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EFTW5NYHY;
@@ -513,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9EFTW5NYHY;
