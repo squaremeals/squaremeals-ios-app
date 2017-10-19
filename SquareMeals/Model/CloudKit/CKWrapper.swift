@@ -6,4 +6,25 @@
 //  Copyright © 2017 Shakd, LLC. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import CloudKit
+
+public protocol CKWrapper {
+    
+    var record: CKRecord { get }
+    var creationDate: Date? { get }
+    var modificationDate: Date? { get }
+    
+}
+
+public extension CKWrapper {
+    
+    public var creationDate: Date? {
+        return record.creationDate
+    }
+    
+    public var modificationDate: Date? {
+        return record.modificationDate
+    }
+    
+}

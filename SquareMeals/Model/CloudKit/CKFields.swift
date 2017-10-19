@@ -9,11 +9,8 @@
 import Foundation
 
 public protocol CKFields {
-    
     static var creationDate: String { get }
     static var modificationDate: String { get }
-    
-    
 }
 
 extension CKFields {
