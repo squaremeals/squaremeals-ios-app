@@ -17,9 +17,28 @@ public final class CloudKitService {
         self.userRecordID = userRecordID
     }
     
-    
-    
-    
+    static func create(completion: @escaping (Bool, AlertableError?, CloudKitService?) -> ()) {
+        
+        CKContainer.default().accountStatus { (status, error) in
+            
+            if let error = CKError(accountStatus: status) {
+                completion(false, error, nil)
+                return
+            }
+            
+            CKContainer.default().fetchUserRecordID { (userRecordID, error) in
+                
+                guard let userRecordID = userRecordID, error == nil else {
+                    completion(false, CKError(error: error), nil)
+                    return
+                }
+                
+                let cloudKitService = CloudKitService(userRecordID: userRecordID)
+                completion(true, nil, cloudKitService)
+            }
+        }
+        
+    }
     
     
     
