@@ -15,6 +15,8 @@
 		4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */; };
 		4AD94AF41F8BF2F3005A97CB /* SquareMealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD94AF31F8BF2F3005A97CB /* SquareMealsTests.swift */; };
 		8E7ACCC16B7A1235D4C29A93 /* Pods_SquareMealsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5969EA190B1E6D6D14AE0B6 /* Pods_SquareMealsTests.framework */; };
+		92F637C51F98389900C01E56 /* MealPlanDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F637C31F98389900C01E56 /* MealPlanDayViewController.swift */; };
+		92F637C61F98389900C01E56 /* MealPlanDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F637C41F98389900C01E56 /* MealPlanDayViewController.xib */; };
 		D2999FD47591AE4F50EE8B1D /* Pods_SquareMeals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		4AD94AF51F8BF2F3005A97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		532D243CD773BF800EBDD6F1 /* Pods-SquareMeals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMeals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMeals/Pods-SquareMeals.debug.xcconfig"; sourceTree = "<group>"; };
 		8A822D2D480446C5ABE8E0B8 /* Pods-SquareMeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMeals/Pods-SquareMeals.release.xcconfig"; sourceTree = "<group>"; };
+		92F637C31F98389900C01E56 /* MealPlanDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanDayViewController.swift; sourceTree = "<group>"; };
+		92F637C41F98389900C01E56 /* MealPlanDayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealPlanDayViewController.xib; sourceTree = "<group>"; };
 		D5969EA190B1E6D6D14AE0B6 /* Pods_SquareMealsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareMealsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3EFCA996C609A998AF780B /* Pods-SquareMealsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMealsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +123,7 @@
 		4AD94ADD1F8BF2F3005A97CB /* SquareMeals */ = {
 			isa = PBXGroup;
 			children = (
+				92F637C21F98385500C01E56 /* View */,
 				4AD94AE51F8BF2F3005A97CB /* Assets.xcassets */,
 				4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */,
 				4AD94AEA1F8BF2F3005A97CB /* Info.plist */,
@@ -145,6 +150,15 @@
 				22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		92F637C21F98385500C01E56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92F637C31F98389900C01E56 /* MealPlanDayViewController.swift */,
+				92F637C41F98389900C01E56 /* MealPlanDayViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */,
+				92F637C61F98389900C01E56 /* MealPlanDayViewController.xib in Resources */,
 				4AD94AE61F8BF2F3005A97CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +368,7 @@
 				4A912F041F8EFB9900113581 /* CKService.swift in Sources */,
 				4A912F0A1F8EFC5000113581 /* CKFields.swift in Sources */,
 				4A912F061F8EFC0700113581 /* CKError.swift in Sources */,
+				92F637C51F98389900C01E56 /* MealPlanDayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
