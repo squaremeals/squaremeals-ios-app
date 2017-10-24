@@ -59,7 +59,7 @@ public enum CKError: AlertableError {
         case .couldntDetermine:
             return "We could not determine your iCloud status. Please try again."
         case .cloudKitDisabled:
-            return "You must be logged into iCloud and have iCloud Drive enabled for 'Captions for Instagram' to use this application. Please open iCloud settings and fix this, then retry our app."
+            return "You must be logged into iCloud and have iCloud Drive enabled for 'SquareMeals' to use this application. Please open iCloud settings and fix this, then retry our app."
         }
     }
     

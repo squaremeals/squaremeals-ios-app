@@ -13,9 +13,9 @@ public protocol CKFields {
     static var modificationDate: String { get }
 }
 
-extension CKFields {
+public extension CKFields {
     
-    static var creationDate: String { return "creationDate" }
-    static var modificationDate: String { return "modificationDate" }
+    public static var creationDate: String { return "creationDate" }
+    public static var modificationDate: String { return "modificationDate" }
     
 }

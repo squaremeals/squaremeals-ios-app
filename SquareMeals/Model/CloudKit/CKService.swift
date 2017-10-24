@@ -11,18 +11,18 @@ import CloudKit
 
 public final class CloudKitService {
     
-    public let userRecordID: CKRecordID
+    public let user: User
     
-    fileprivate init(userRecordID: CKRecordID) {
-        self.userRecordID = userRecordID
+    fileprivate init(user: User) {
+        self.user = user
     }
     
     static func create(completion: @escaping (Bool, AlertableError?, CloudKitService?) -> ()) {
         
         CKContainer.default().accountStatus { (status, error) in
             
-            if let error = CKError(accountStatus: status) {
-                completion(false, error, nil)
+            guard error == nil else {
+                completion(false, CKError(error: error), nil)
                 return
             }
             
@@ -33,8 +33,19 @@ public final class CloudKitService {
                     return
                 }
                 
-                let cloudKitService = CloudKitService(userRecordID: userRecordID)
-                completion(true, nil, cloudKitService)
+                CKContainer.default().publicCloudDatabase.fetch(withRecordID: userRecordID) { (record, error) in
+                    
+                    guard let userRecord = record, error == nil else {
+                        completion(false, CKError(error: error), nil)
+                        return
+                    }
+                    let user = User(record: userRecord)
+                    let cloudKitService = CloudKitService(user: user)
+                    
+                    print("User: \(user)")
+                    
+                    completion(true, nil, cloudKitService)
+                }
             }
         }
         
