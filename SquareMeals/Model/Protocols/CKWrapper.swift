@@ -15,6 +15,7 @@ public protocol CKWrapper {
     var creationDate: Date? { get }
     var modificationDate: Date? { get }
     
+    init(record: CKRecord)
 }
 
 public extension CKWrapper {
