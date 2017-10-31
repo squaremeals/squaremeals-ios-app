@@ -9,6 +9,8 @@
 import Foundation
 import CloudKit
 
+public typealias UserInfo = (firstName: String?, lastName: String?, birthday: Date?, weight: Int?, height: Int?, measuringSystem: String?)
+
 public struct User: CKWrapper {
     
     public let record: CKRecord
@@ -29,5 +31,9 @@ public struct User: CKWrapper {
     public var height: Int? { return record[Fields.height] as? Int }
     public var measuringSystem: String? { return record[Fields.measuringSystem] as? String }
     
+    
+    public init(record: CKRecord) {
+        self.record = record
+    }
 }
 
