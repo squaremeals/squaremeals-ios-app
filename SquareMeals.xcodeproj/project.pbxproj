@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A37697D1FA9025A0012B6FD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37697B1FA9025A0012B6FD /* WelcomeViewController.swift */; };
+		4A37697E1FA9025A0012B6FD /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A37697C1FA9025A0012B6FD /* WelcomeViewController.xib */; };
+		4A3769801FA903EB0012B6FD /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37697F1FA903EB0012B6FD /* OnboardingCoordinator.swift */; };
 		4A450C481F9FB4FF0085C4D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A450C471F9FB4FF0085C4D2 /* User.swift */; };
 		4A450C4B1F9FB7570085C4D2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A450C4A1F9FB7570085C4D2 /* CloudKit.framework */; };
 		4A450C4E1F9FB7720085C4D2 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A450C4D1F9FB7720085C4D2 /* AppCoordinator.swift */; };
@@ -44,6 +47,9 @@
 /* Begin PBXFileReference section */
 		22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMealsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests.release.xcconfig"; sourceTree = "<group>"; };
 		262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareMeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A37697B1FA9025A0012B6FD /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4A37697C1FA9025A0012B6FD /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		4A37697F1FA903EB0012B6FD /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		4A450C471F9FB4FF0085C4D2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4A450C491F9FB7520085C4D2 /* SquareMeals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SquareMeals.entitlements; sourceTree = "<group>"; };
 		4A450C4A1F9FB7570085C4D2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -120,6 +126,7 @@
 				4A450C4F1F9FB7830085C4D2 /* Protocols */,
 				4A450C4D1F9FB7720085C4D2 /* AppCoordinator.swift */,
 				4A450C581F9FBB990085C4D2 /* AuthenticationCoordinator.swift */,
+				4A37697F1FA903EB0012B6FD /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -145,6 +152,8 @@
 			children = (
 				4A450C541F9FB80D0085C4D2 /* LoadingViewController.swift */,
 				4A450C551F9FB80D0085C4D2 /* LoadingViewController.xib */,
+				4A37697B1FA9025A0012B6FD /* WelcomeViewController.swift */,
+				4A37697C1FA9025A0012B6FD /* WelcomeViewController.xib */,
 			);
 			path = "Login Flow";
 			sourceTree = "<group>";
@@ -348,6 +357,7 @@
 				4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */,
 				92F637C61F98389900C01E56 /* MealPlanDayViewController.xib in Resources */,
 				4AD94AE61F8BF2F3005A97CB /* Assets.xcassets in Resources */,
+				4A37697E1FA9025A0012B6FD /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +472,7 @@
 				4A450C511F9FB7900085C4D2 /* Coordinator.swift in Sources */,
 				4AD7F2711F98357C00A81BA8 /* AlertableError.swift in Sources */,
 				4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */,
+				4A3769801FA903EB0012B6FD /* OnboardingCoordinator.swift in Sources */,
 				4A450C481F9FB4FF0085C4D2 /* User.swift in Sources */,
 				4A912F041F8EFB9900113581 /* CKService.swift in Sources */,
 				92124A7F1F9FB5280088A7A7 /* MealTableViewCell.swift in Sources */,
@@ -471,6 +482,7 @@
 				4A450C561F9FB80D0085C4D2 /* LoadingViewController.swift in Sources */,
 				4A450C591F9FBB990085C4D2 /* AuthenticationCoordinator.swift in Sources */,
 				4A450C4E1F9FB7720085C4D2 /* AppCoordinator.swift in Sources */,
+				4A37697D1FA9025A0012B6FD /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
