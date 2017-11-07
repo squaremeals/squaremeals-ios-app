@@ -107,7 +107,7 @@
                             <constraint firstItem="RMJ-Co-KCf" firstAttribute="leading" secondItem="PRr-Me-72L" secondAttribute="leading" constant="12" id="zTk-pG-MZf"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                 <integer key="value" value="10"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
