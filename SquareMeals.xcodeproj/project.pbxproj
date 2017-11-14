@@ -29,6 +29,18 @@
 		8E7ACCC16B7A1235D4C29A93 /* Pods_SquareMealsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5969EA190B1E6D6D14AE0B6 /* Pods_SquareMealsTests.framework */; };
 		92124A7F1F9FB5280088A7A7 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92124A7D1F9FB5280088A7A7 /* MealTableViewCell.swift */; };
 		92124A801F9FB5280088A7A7 /* MealTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92124A7E1F9FB5280088A7A7 /* MealTableViewCell.xib */; };
+		92124A831FB23C2B0088A7A7 /* WeighViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92124A811FB23C2B0088A7A7 /* WeighViewController.swift */; };
+		92124A841FB23C2B0088A7A7 /* WeighViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92124A821FB23C2B0088A7A7 /* WeighViewController.xib */; };
+		92124A871FB243C60088A7A7 /* TargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92124A851FB243C60088A7A7 /* TargetViewController.swift */; };
+		92124A881FB243C60088A7A7 /* TargetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92124A861FB243C60088A7A7 /* TargetViewController.xib */; };
+		92E77B351FBB73AC00B28E93 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77B331FBB73AC00B28E93 /* GenderViewController.swift */; };
+		92E77B361FBB73AC00B28E93 /* GenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E77B341FBB73AC00B28E93 /* GenderViewController.xib */; };
+		92E77B391FBB794400B28E93 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77B371FBB794400B28E93 /* ActiveViewController.swift */; };
+		92E77B3A1FBB794400B28E93 /* ActiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E77B381FBB794400B28E93 /* ActiveViewController.xib */; };
+		92E77B3D1FBB7EA300B28E93 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77B3B1FBB7EA200B28E93 /* BirthdayViewController.swift */; };
+		92E77B3E1FBB7EA300B28E93 /* BirthdayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E77B3C1FBB7EA200B28E93 /* BirthdayViewController.xib */; };
+		92E77B411FBB82D800B28E93 /* TallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77B3F1FBB82D800B28E93 /* TallViewController.swift */; };
+		92E77B421FBB82D800B28E93 /* TallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E77B401FBB82D800B28E93 /* TallViewController.xib */; };
 		92F637C51F98389900C01E56 /* MealPlanDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F637C31F98389900C01E56 /* MealPlanDayViewController.swift */; };
 		92F637C61F98389900C01E56 /* MealPlanDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F637C41F98389900C01E56 /* MealPlanDayViewController.xib */; };
 		D2999FD47591AE4F50EE8B1D /* Pods_SquareMeals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */; };
@@ -75,6 +87,18 @@
 		8A822D2D480446C5ABE8E0B8 /* Pods-SquareMeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMeals/Pods-SquareMeals.release.xcconfig"; sourceTree = "<group>"; };
 		92124A7D1F9FB5280088A7A7 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		92124A7E1F9FB5280088A7A7 /* MealTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealTableViewCell.xib; sourceTree = "<group>"; };
+		92124A811FB23C2B0088A7A7 /* WeighViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeighViewController.swift; sourceTree = "<group>"; };
+		92124A821FB23C2B0088A7A7 /* WeighViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeighViewController.xib; sourceTree = "<group>"; };
+		92124A851FB243C60088A7A7 /* TargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetViewController.swift; sourceTree = "<group>"; };
+		92124A861FB243C60088A7A7 /* TargetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetViewController.xib; sourceTree = "<group>"; };
+		92E77B331FBB73AC00B28E93 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		92E77B341FBB73AC00B28E93 /* GenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderViewController.xib; sourceTree = "<group>"; };
+		92E77B371FBB794400B28E93 /* ActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
+		92E77B381FBB794400B28E93 /* ActiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActiveViewController.xib; sourceTree = "<group>"; };
+		92E77B3B1FBB7EA200B28E93 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		92E77B3C1FBB7EA200B28E93 /* BirthdayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BirthdayViewController.xib; sourceTree = "<group>"; };
+		92E77B3F1FBB82D800B28E93 /* TallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallViewController.swift; sourceTree = "<group>"; };
+		92E77B401FBB82D800B28E93 /* TallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TallViewController.xib; sourceTree = "<group>"; };
 		92F637C31F98389900C01E56 /* MealPlanDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanDayViewController.swift; sourceTree = "<group>"; };
 		92F637C41F98389900C01E56 /* MealPlanDayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealPlanDayViewController.xib; sourceTree = "<group>"; };
 		D5969EA190B1E6D6D14AE0B6 /* Pods_SquareMealsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareMealsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +274,18 @@
 				92F637C41F98389900C01E56 /* MealPlanDayViewController.xib */,
 				92124A7D1F9FB5280088A7A7 /* MealTableViewCell.swift */,
 				92124A7E1F9FB5280088A7A7 /* MealTableViewCell.xib */,
+				92124A811FB23C2B0088A7A7 /* WeighViewController.swift */,
+				92124A821FB23C2B0088A7A7 /* WeighViewController.xib */,
+				92124A851FB243C60088A7A7 /* TargetViewController.swift */,
+				92124A861FB243C60088A7A7 /* TargetViewController.xib */,
+				92E77B331FBB73AC00B28E93 /* GenderViewController.swift */,
+				92E77B341FBB73AC00B28E93 /* GenderViewController.xib */,
+				92E77B371FBB794400B28E93 /* ActiveViewController.swift */,
+				92E77B381FBB794400B28E93 /* ActiveViewController.xib */,
+				92E77B3B1FBB7EA200B28E93 /* BirthdayViewController.swift */,
+				92E77B3C1FBB7EA200B28E93 /* BirthdayViewController.xib */,
+				92E77B3F1FBB82D800B28E93 /* TallViewController.swift */,
+				92E77B401FBB82D800B28E93 /* TallViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -353,11 +389,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				92124A801F9FB5280088A7A7 /* MealTableViewCell.xib in Resources */,
+				92E77B3E1FBB7EA300B28E93 /* BirthdayViewController.xib in Resources */,
 				4A450C571F9FB80D0085C4D2 /* LoadingViewController.xib in Resources */,
 				4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */,
 				92F637C61F98389900C01E56 /* MealPlanDayViewController.xib in Resources */,
 				4AD94AE61F8BF2F3005A97CB /* Assets.xcassets in Resources */,
 				4A37697E1FA9025A0012B6FD /* WelcomeViewController.xib in Resources */,
+				92E77B3A1FBB794400B28E93 /* ActiveViewController.xib in Resources */,
+				92124A841FB23C2B0088A7A7 /* WeighViewController.xib in Resources */,
+				92E77B361FBB73AC00B28E93 /* GenderViewController.xib in Resources */,
+				92124A881FB243C60088A7A7 /* TargetViewController.xib in Resources */,
+				92E77B421FBB82D800B28E93 /* TallViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,12 +511,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A450C5B1F9FBD590085C4D2 /* AppDelegate.swift in Sources */,
+				92124A871FB243C60088A7A7 /* TargetViewController.swift in Sources */,
 				4A450C511F9FB7900085C4D2 /* Coordinator.swift in Sources */,
 				4AD7F2711F98357C00A81BA8 /* AlertableError.swift in Sources */,
 				4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */,
+				92E77B3D1FBB7EA300B28E93 /* BirthdayViewController.swift in Sources */,
+				92E77B411FBB82D800B28E93 /* TallViewController.swift in Sources */,
 				4A3769801FA903EB0012B6FD /* OnboardingCoordinator.swift in Sources */,
 				4A450C481F9FB4FF0085C4D2 /* User.swift in Sources */,
 				4A912F041F8EFB9900113581 /* CKService.swift in Sources */,
+				92124A831FB23C2B0088A7A7 /* WeighViewController.swift in Sources */,
+				92E77B351FBB73AC00B28E93 /* GenderViewController.swift in Sources */,
+				92E77B391FBB794400B28E93 /* ActiveViewController.swift in Sources */,
 				92124A7F1F9FB5280088A7A7 /* MealTableViewCell.swift in Sources */,
 				4A912F0A1F8EFC5000113581 /* CKFields.swift in Sources */,
 				4A912F061F8EFC0700113581 /* CKError.swift in Sources */,
