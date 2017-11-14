@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActiveViewController" customModule="SquareMeals" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sedetary" translatesAutoresizingMaskIntoConstraints="NO" id="1jN-5A-RBa">
+                    <rect key="frame" x="144" y="78" width="87" height="102"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="102" id="JFG-LR-v8L"/>
+                        <constraint firstAttribute="width" constant="87" id="fxI-bR-1FS"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How active are you?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVJ-P7-GCf">
+                    <rect key="frame" x="0.0" y="204" width="375" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="Awe-LS-Nj2"/>
+                        <constraint firstAttribute="height" constant="40" id="NIB-4y-gla"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="lek-ul-Nbc">
+                    <rect key="frame" x="67" y="268" width="240" height="13.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="N1p-vz-WgZ"/>
+                        <constraint firstAttribute="height" constant="13.4" id="bhg-QF-NpC"/>
+                    </constraints>
+                </progressView>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5D2-ef-5mu">
+                    <rect key="frame" x="68" y="347" width="239" height="14.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="235" id="aS7-97-cgo"/>
+                        <constraint firstAttribute="height" constant="13.4" id="xhw-qi-bLe"/>
+                    </constraints>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sedetary" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uV-2d-IfG">
+                    <rect key="frame" x="69" y="395" width="237" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="evS-64-f9N"/>
+                        <constraint firstAttribute="width" constant="237" id="sVM-Fv-DYi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You do not work out and you do not hae an active job." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFU-GZ-6a3">
+                    <rect key="frame" x="54" y="435" width="266" height="99"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="266" id="10P-Tb-hgQ"/>
+                        <constraint firstAttribute="height" constant="99" id="9Oq-RN-usa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXk-dM-Dgn">
+                    <rect key="frame" x="89" y="532" width="197" height="62"/>
+                    <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="DvG-o9-B8V"/>
+                        <constraint firstAttribute="width" constant="197" id="xCE-vw-jg8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" red="0.98039215690000003" green="0.97254901959999995" blue="0.97254901959999995" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oFU-GZ-6a3" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Qgi-AS-rLg"/>
+                <constraint firstItem="lek-ul-Nbc" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="TzF-5t-EVT"/>
+                <constraint firstItem="QVJ-P7-GCf" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="UuB-ic-3Yv"/>
+                <constraint firstItem="5D2-ef-5mu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Xqd-J8-X0s"/>
+                <constraint firstItem="1jN-5A-RBa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="58" id="Ywf-eU-jKH"/>
+                <constraint firstItem="oFU-GZ-6a3" firstAttribute="top" secondItem="7uV-2d-IfG" secondAttribute="bottom" id="e6k-Ro-xN4"/>
+                <constraint firstItem="lek-ul-Nbc" firstAttribute="top" secondItem="QVJ-P7-GCf" secondAttribute="bottom" constant="24" id="epS-71-GQH"/>
+                <constraint firstItem="dXk-dM-Dgn" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="h1P-gP-gt1"/>
+                <constraint firstItem="QVJ-P7-GCf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="184" id="h9d-iD-CA7"/>
+                <constraint firstItem="1jN-5A-RBa" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="kVo-BC-miP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dXk-dM-Dgn" secondAttribute="bottom" constant="73" id="muK-e3-XUK"/>
+                <constraint firstItem="7uV-2d-IfG" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="rxJ-2i-p53"/>
+                <constraint firstItem="5D2-ef-5mu" firstAttribute="top" secondItem="lek-ul-Nbc" secondAttribute="bottom" constant="65.599999999999994" id="tCo-Bh-GP5"/>
+                <constraint firstItem="7uV-2d-IfG" firstAttribute="top" secondItem="5D2-ef-5mu" secondAttribute="bottom" constant="34.600000000000001" id="xch-2N-MMb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="70.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sedetary" width="87" height="102"/>
+    </resources>
+</document>

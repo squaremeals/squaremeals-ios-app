@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gender" translatesAutoresizingMaskIntoConstraints="NO" id="hlm-3n-g9L">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gender" translatesAutoresizingMaskIntoConstraints="NO" id="hlm-3n-g9L">
                     <rect key="frame" x="144" y="78" width="87" height="102"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="102" id="PFj-T5-ShQ"/>
@@ -36,7 +36,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mik-CB-XLc">
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.82999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="mik-CB-XLc">
                     <rect key="frame" x="67" y="268" width="240" height="13.5"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="13.4" id="33j-Aw-Stv"/>
@@ -56,7 +56,7 @@
                     </segments>
                     <color key="tintColor" red="0.9137254901960784" green="0.11764705882352941" blue="0.38823529411764707" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                 </segmentedControl>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please choose the gender that most closely corresponds to you. We're working on being more inclusive." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7e-Rd-S81">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please choose the gender that most closely corresponds to you. We're working on being more inclusive." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7e-Rd-S81">
                     <rect key="frame" x="54" y="426" width="266" height="99"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="266" id="DWp-IL-1Hd"/>
@@ -66,7 +66,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpj-Xp-Yig">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpj-Xp-Yig">
                     <rect key="frame" x="89" y="532" width="197" height="62"/>
                     <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
                     <constraints>
@@ -92,6 +92,7 @@
                 <constraint firstItem="hlm-3n-g9L" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="58" id="CuV-UY-wJY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="vpj-Xp-Yig" secondAttribute="bottom" constant="73" id="H9e-67-FeH"/>
                 <constraint firstItem="TJc-5v-4xe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="184" id="J4x-Cc-RGw"/>
+                <constraint firstItem="vpj-Xp-Yig" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="QUy-J7-dCO"/>
                 <constraint firstItem="mik-CB-XLc" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="XHH-hf-AuW"/>
                 <constraint firstItem="zjn-e8-9dP" firstAttribute="top" secondItem="mik-CB-XLc" secondAttribute="bottom" constant="47.600000000000001" id="Zw1-SD-TJn"/>
                 <constraint firstItem="m7e-Rd-S81" firstAttribute="top" secondItem="zjn-e8-9dP" secondAttribute="bottom" constant="47" id="mcF-9O-hbh"/>
