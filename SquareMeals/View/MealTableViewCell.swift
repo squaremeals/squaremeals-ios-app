@@ -8,17 +8,34 @@
 
 import UIKit
 
-class MealTableViewCell: UITableViewCell {
+public final class MealTableViewCell: UITableViewCell, ReusableView {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var coverImageView: UIImageView!
+    @IBOutlet weak var caloriesLabel: UILabel!
+    @IBOutlet weak var carbsLabel: UILabel!
+    @IBOutlet weak var fatsLabel: UILabel!
+    
+    public func configure(for meal: Meal) {
+        
+        coverImageView.image = meal.coverImage
+        caloriesLabel.text = String(format: "%.1f", meal.calories)
+        carbsLabel.text = String(format: "%.1f", meal.carbohydrates)
+        fatsLabel.text = String(format: "%.1f", meal.fats)
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    public override func prepareForReuse() {
+        super.prepareForReuse()
+        coverImageView.image = nil
+        caloriesLabel.text = ""
+        carbsLabel.text = ""
+        fatsLabel.text = ""
     }
+    
+    public override func awakeFromNib() {
+        coverImageView.image = nil
+        selectionStyle = .none
+    }
+    
     
 }

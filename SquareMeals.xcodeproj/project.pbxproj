@@ -18,6 +18,20 @@
 		4A450C571F9FB80D0085C4D2 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A450C551F9FB80D0085C4D2 /* LoadingViewController.xib */; };
 		4A450C591F9FBB990085C4D2 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A450C581F9FBB990085C4D2 /* AuthenticationCoordinator.swift */; };
 		4A450C5B1F9FBD590085C4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A450C5A1F9FBD590085C4D2 /* AppDelegate.swift */; };
+		4A5B7B251FBB724B00847037 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B241FBB724B00847037 /* MainCoordinator.swift */; };
+		4A5B7B281FBB768A00847037 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B271FBB768A00847037 /* Meal.swift */; };
+		4A5B7B2B1FBB770E00847037 /* LocalMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B2A1FBB770E00847037 /* LocalMeal.swift */; };
+		4A5B7B3B1FBB7D4400847037 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B301FBB7D4300847037 /* UICollectionView+Extensions.swift */; };
+		4A5B7B3C1FBB7D4400847037 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B311FBB7D4300847037 /* CALayer+Extensions.swift */; };
+		4A5B7B3D1FBB7D4400847037 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B321FBB7D4300847037 /* UITableView+Extensions.swift */; };
+		4A5B7B3E1FBB7D4400847037 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B331FBB7D4300847037 /* UIColor+Extensions.swift */; };
+		4A5B7B3F1FBB7D4400847037 /* NSDate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B341FBB7D4300847037 /* NSDate+Extensions.swift */; };
+		4A5B7B401FBB7D4400847037 /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B351FBB7D4300847037 /* ReuseableView.swift */; };
+		4A5B7B411FBB7D4400847037 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B361FBB7D4300847037 /* UIBarButtonItem+Extensions.swift */; };
+		4A5B7B421FBB7D4400847037 /* NSURL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B371FBB7D4300847037 /* NSURL+Extensions.swift */; };
+		4A5B7B431FBB7D4400847037 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B381FBB7D4300847037 /* Array+Extensions.swift */; };
+		4A5B7B441FBB7D4400847037 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B391FBB7D4300847037 /* UIDevice+Extensions.swift */; };
+		4A5B7B451FBB7D4400847037 /* UINib+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B3A1FBB7D4300847037 /* UINib+Extensions.swift */; };
 		4A912F041F8EFB9900113581 /* CKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F031F8EFB9900113581 /* CKService.swift */; };
 		4A912F061F8EFC0700113581 /* CKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F051F8EFC0700113581 /* CKError.swift */; };
 		4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F071F8EFC2500113581 /* CKWrapper.swift */; };
@@ -71,6 +85,20 @@
 		4A450C551F9FB80D0085C4D2 /* LoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
 		4A450C581F9FBB990085C4D2 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
 		4A450C5A1F9FBD590085C4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A5B7B241FBB724B00847037 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		4A5B7B271FBB768A00847037 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = Protocol/Meal.swift; sourceTree = "<group>"; };
+		4A5B7B2A1FBB770E00847037 /* LocalMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMeal.swift; sourceTree = "<group>"; };
+		4A5B7B301FBB7D4300847037 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B311FBB7D4300847037 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B321FBB7D4300847037 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B331FBB7D4300847037 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B341FBB7D4300847037 /* NSDate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B351FBB7D4300847037 /* ReuseableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseableView.swift; sourceTree = "<group>"; };
+		4A5B7B361FBB7D4300847037 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B371FBB7D4300847037 /* NSURL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B381FBB7D4300847037 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B391FBB7D4300847037 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B3A1FBB7D4300847037 /* UINib+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Extensions.swift"; sourceTree = "<group>"; };
 		4A912F031F8EFB9900113581 /* CKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKService.swift; sourceTree = "<group>"; };
 		4A912F051F8EFC0700113581 /* CKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKError.swift; sourceTree = "<group>"; };
 		4A912F071F8EFC2500113581 /* CKWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKWrapper.swift; sourceTree = "<group>"; };
@@ -151,6 +179,7 @@
 				4A450C4D1F9FB7720085C4D2 /* AppCoordinator.swift */,
 				4A450C581F9FBB990085C4D2 /* AuthenticationCoordinator.swift */,
 				4A37697F1FA903EB0012B6FD /* OnboardingCoordinator.swift */,
+				4A5B7B241FBB724B00847037 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -182,6 +211,48 @@
 			path = "Login Flow";
 			sourceTree = "<group>";
 		};
+		4A5B7B261FBB767500847037 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4A5B7B271FBB768A00847037 /* Meal.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		4A5B7B291FBB76FF00847037 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				4A5B7B2A1FBB770E00847037 /* LocalMeal.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		4A5B7B2E1FBB7D0200847037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A5B7B2F1FBB7D3100847037 /* Extensions */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A5B7B2F1FBB7D3100847037 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A5B7B381FBB7D4300847037 /* Array+Extensions.swift */,
+				4A5B7B311FBB7D4300847037 /* CALayer+Extensions.swift */,
+				4A5B7B341FBB7D4300847037 /* NSDate+Extensions.swift */,
+				4A5B7B371FBB7D4300847037 /* NSURL+Extensions.swift */,
+				4A5B7B351FBB7D4300847037 /* ReuseableView.swift */,
+				4A5B7B361FBB7D4300847037 /* UIBarButtonItem+Extensions.swift */,
+				4A5B7B301FBB7D4300847037 /* UICollectionView+Extensions.swift */,
+				4A5B7B331FBB7D4300847037 /* UIColor+Extensions.swift */,
+				4A5B7B391FBB7D4300847037 /* UIDevice+Extensions.swift */,
+				4A5B7B3A1FBB7D4300847037 /* UINib+Extensions.swift */,
+				4A5B7B321FBB7D4300847037 /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		4A912F011F8EFB7400113581 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +265,8 @@
 		4A912F021F8EFB7A00113581 /* CloudKit */ = {
 			isa = PBXGroup;
 			children = (
+				4A5B7B291FBB76FF00847037 /* Local */,
+				4A5B7B261FBB767500847037 /* Protocol */,
 				4A450C461F9FB4F00085C4D2 /* Objects */,
 				4A912F031F8EFB9900113581 /* CKService.swift */,
 				4A912F051F8EFC0700113581 /* CKError.swift */,
@@ -242,6 +315,7 @@
 				4AD94AE71F8BF2F3005A97CB /* LaunchScreen.storyboard */,
 				4AD94AEA1F8BF2F3005A97CB /* Info.plist */,
 				4A450C5A1F9FBD590085C4D2 /* AppDelegate.swift */,
+				4A5B7B2E1FBB7D0200847037 /* Supporting Files */,
 				4A912F011F8EFB7400113581 /* Model */,
 			);
 			path = SquareMeals;
@@ -510,25 +584,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5B7B3B1FBB7D4400847037 /* UICollectionView+Extensions.swift in Sources */,
+				4A5B7B401FBB7D4400847037 /* ReuseableView.swift in Sources */,
 				4A450C5B1F9FBD590085C4D2 /* AppDelegate.swift in Sources */,
 				92124A871FB243C60088A7A7 /* TargetViewController.swift in Sources */,
 				4A450C511F9FB7900085C4D2 /* Coordinator.swift in Sources */,
 				4AD7F2711F98357C00A81BA8 /* AlertableError.swift in Sources */,
+				4A5B7B281FBB768A00847037 /* Meal.swift in Sources */,
+				4A5B7B2B1FBB770E00847037 /* LocalMeal.swift in Sources */,
 				4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */,
+				4A5B7B411FBB7D4400847037 /* UIBarButtonItem+Extensions.swift in Sources */,
+				4A5B7B3C1FBB7D4400847037 /* CALayer+Extensions.swift in Sources */,
 				92E77B3D1FBB7EA300B28E93 /* BirthdayViewController.swift in Sources */,
 				92E77B411FBB82D800B28E93 /* TallViewController.swift in Sources */,
 				4A3769801FA903EB0012B6FD /* OnboardingCoordinator.swift in Sources */,
+				4A5B7B3F1FBB7D4400847037 /* NSDate+Extensions.swift in Sources */,
 				4A450C481F9FB4FF0085C4D2 /* User.swift in Sources */,
+				4A5B7B441FBB7D4400847037 /* UIDevice+Extensions.swift in Sources */,
 				4A912F041F8EFB9900113581 /* CKService.swift in Sources */,
 				92124A831FB23C2B0088A7A7 /* WeighViewController.swift in Sources */,
 				92E77B351FBB73AC00B28E93 /* GenderViewController.swift in Sources */,
 				92E77B391FBB794400B28E93 /* ActiveViewController.swift in Sources */,
 				92124A7F1F9FB5280088A7A7 /* MealTableViewCell.swift in Sources */,
 				4A912F0A1F8EFC5000113581 /* CKFields.swift in Sources */,
+				4A5B7B421FBB7D4400847037 /* NSURL+Extensions.swift in Sources */,
+				4A5B7B251FBB724B00847037 /* MainCoordinator.swift in Sources */,
 				4A912F061F8EFC0700113581 /* CKError.swift in Sources */,
+				4A5B7B431FBB7D4400847037 /* Array+Extensions.swift in Sources */,
+				4A5B7B3D1FBB7D4400847037 /* UITableView+Extensions.swift in Sources */,
 				92F637C51F98389900C01E56 /* MealPlanDayViewController.swift in Sources */,
 				4A450C561F9FB80D0085C4D2 /* LoadingViewController.swift in Sources */,
 				4A450C591F9FBB990085C4D2 /* AuthenticationCoordinator.swift in Sources */,
+				4A5B7B3E1FBB7D4400847037 /* UIColor+Extensions.swift in Sources */,
+				4A5B7B451FBB7D4400847037 /* UINib+Extensions.swift in Sources */,
 				4A450C4E1F9FB7720085C4D2 /* AppCoordinator.swift in Sources */,
 				4A37697D1FA9025A0012B6FD /* WelcomeViewController.swift in Sources */,
 			);

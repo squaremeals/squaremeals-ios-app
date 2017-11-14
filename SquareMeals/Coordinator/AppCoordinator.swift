@@ -13,14 +13,18 @@ public final class AppCoordinator: Coordinator, AuthenticationCoordinatorDelegat
     fileprivate let rootViewController: UIViewController
     
     fileprivate var authenticationCoordinator: AuthenticationCoordinator?
+    fileprivate var mainCoordinator: MainCoordinator?
     
     public init(rootViewController: UIViewController) {
         self.rootViewController = rootViewController
     }
     
     public func start() {
-        authenticationCoordinator = AuthenticationCoordinator(rootViewController: rootViewController, delegate: self)
-        authenticationCoordinator?.start()
+        mainCoordinator = MainCoordinator(rootViewController: rootViewController)
+        mainCoordinator?.start()
+        
+//        authenticationCoordinator = AuthenticationCoordinator(rootViewController: rootViewController, delegate: self)
+//        authenticationCoordinator?.start()
     }
     
     //MARK:- AuthenticationCoordinator
