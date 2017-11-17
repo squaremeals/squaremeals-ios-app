@@ -10,10 +10,14 @@ import UIKit
 
 public protocol Meal {
 
+    var label: String { get }
     var coverImage: UIImage { get }
     var calories: Double { get }
     var carbohydrates: Double { get }
     var protein: Double { get }
     var fats: Double { get }
+    var name: String { get }
+    var description: String { get }
+    var ingredients: String { get }
     
 }
