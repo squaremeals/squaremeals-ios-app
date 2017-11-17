@@ -11,6 +11,7 @@ import UIKit
 public protocol MealPlanDayViewControllerDelegate: class {
     func mealPlanDayViewControllerDidLoad(controller: MealPlanDayViewController)
     func mealPlanDayViewControllerShouldLoadMore(controller: MealPlanDayViewController)
+    func mealPlanDayViewControllerMealSelected(_ meal: Meal, controller: MealPlanDayViewController)
 }
 
 public final class MealPlanDayViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -28,13 +29,13 @@ public final class MealPlanDayViewController: UIViewController, UITableViewDataS
     override public func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Meal Plan"
+        navigationController?.setNavigationBarHidden(true, animated: false)
         
         tableView.dataSource = self
         tableView.delegate = self
         tableView.registerCell(type: MealTableViewCell.self)
         
         delegate?.mealPlanDayViewControllerDidLoad(controller: self)
-        
     }
     
     public func startLoading() {
@@ -64,7 +65,8 @@ public final class MealPlanDayViewController: UIViewController, UITableViewDataS
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let meal = meals[indexPath.row]
+        delegate?.mealPlanDayViewControllerMealSelected(meal, controller: self)
     }
     
 }

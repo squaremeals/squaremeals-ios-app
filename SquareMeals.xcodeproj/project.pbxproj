@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1B9DA81FBE6BA900799DF4 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B9DA61FBE6BA900799DF4 /* MealViewController.swift */; };
+		4A1B9DA91FBE6BA900799DF4 /* MealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1B9DA71FBE6BA900799DF4 /* MealViewController.xib */; };
 		4A37697D1FA9025A0012B6FD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37697B1FA9025A0012B6FD /* WelcomeViewController.swift */; };
 		4A37697E1FA9025A0012B6FD /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A37697C1FA9025A0012B6FD /* WelcomeViewController.xib */; };
 		4A3769801FA903EB0012B6FD /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37697F1FA903EB0012B6FD /* OnboardingCoordinator.swift */; };
@@ -32,6 +34,9 @@
 		4A5B7B431FBB7D4400847037 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B381FBB7D4300847037 /* Array+Extensions.swift */; };
 		4A5B7B441FBB7D4400847037 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B391FBB7D4300847037 /* UIDevice+Extensions.swift */; };
 		4A5B7B451FBB7D4400847037 /* UINib+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B3A1FBB7D4300847037 /* UINib+Extensions.swift */; };
+		4A5B7B4D1FBDE49B00847037 /* SMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B4B1FBDE49B00847037 /* SMTabBarController.swift */; };
+		4A5B7B4E1FBDE49B00847037 /* SMTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B7B4C1FBDE49B00847037 /* SMTabBarController.xib */; };
+		4A5B7B501FBE5B9E00847037 /* UntintedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7B4F1FBE5B9E00847037 /* UntintedButton.swift */; };
 		4A912F041F8EFB9900113581 /* CKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F031F8EFB9900113581 /* CKService.swift */; };
 		4A912F061F8EFC0700113581 /* CKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F051F8EFC0700113581 /* CKError.swift */; };
 		4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A912F071F8EFC2500113581 /* CKWrapper.swift */; };
@@ -73,6 +78,8 @@
 /* Begin PBXFileReference section */
 		22BA7219C058DA2C59711F72 /* Pods-SquareMealsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareMealsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareMealsTests/Pods-SquareMealsTests.release.xcconfig"; sourceTree = "<group>"; };
 		262CF437761E41A3CD1881D1 /* Pods_SquareMeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquareMeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1B9DA61FBE6BA900799DF4 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		4A1B9DA71FBE6BA900799DF4 /* MealViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealViewController.xib; sourceTree = "<group>"; };
 		4A37697B1FA9025A0012B6FD /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4A37697C1FA9025A0012B6FD /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		4A37697F1FA903EB0012B6FD /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
@@ -99,6 +106,9 @@
 		4A5B7B381FBB7D4300847037 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		4A5B7B391FBB7D4300847037 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		4A5B7B3A1FBB7D4300847037 /* UINib+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Extensions.swift"; sourceTree = "<group>"; };
+		4A5B7B4B1FBDE49B00847037 /* SMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMTabBarController.swift; sourceTree = "<group>"; };
+		4A5B7B4C1FBDE49B00847037 /* SMTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SMTabBarController.xib; sourceTree = "<group>"; };
+		4A5B7B4F1FBE5B9E00847037 /* UntintedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntintedButton.swift; sourceTree = "<group>"; };
 		4A912F031F8EFB9900113581 /* CKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKService.swift; sourceTree = "<group>"; };
 		4A912F051F8EFC0700113581 /* CKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKError.swift; sourceTree = "<group>"; };
 		4A912F071F8EFC2500113581 /* CKWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKWrapper.swift; sourceTree = "<group>"; };
@@ -195,6 +205,7 @@
 		4A450C521F9FB7EC0085C4D2 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4A5B7B461FBDD68600847037 /* Custom Views */,
 				4A450C531F9FB7F50085C4D2 /* Login Flow */,
 			);
 			path = "View Controllers";
@@ -251,6 +262,14 @@
 				4A5B7B321FBB7D4300847037 /* UITableView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A5B7B461FBDD68600847037 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A5B7B4F1FBE5B9E00847037 /* UntintedButton.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		4A912F011F8EFB7400113581 /* Model */ = {
@@ -344,8 +363,12 @@
 		92F637C21F98385500C01E56 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A5B7B4B1FBDE49B00847037 /* SMTabBarController.swift */,
+				4A5B7B4C1FBDE49B00847037 /* SMTabBarController.xib */,
 				92F637C31F98389900C01E56 /* MealPlanDayViewController.swift */,
 				92F637C41F98389900C01E56 /* MealPlanDayViewController.xib */,
+				4A1B9DA61FBE6BA900799DF4 /* MealViewController.swift */,
+				4A1B9DA71FBE6BA900799DF4 /* MealViewController.xib */,
 				92124A7D1F9FB5280088A7A7 /* MealTableViewCell.swift */,
 				92124A7E1F9FB5280088A7A7 /* MealTableViewCell.xib */,
 				92124A811FB23C2B0088A7A7 /* WeighViewController.swift */,
@@ -468,6 +491,8 @@
 				4AD94AE91F8BF2F3005A97CB /* LaunchScreen.storyboard in Resources */,
 				92F637C61F98389900C01E56 /* MealPlanDayViewController.xib in Resources */,
 				4AD94AE61F8BF2F3005A97CB /* Assets.xcassets in Resources */,
+				4A5B7B4E1FBDE49B00847037 /* SMTabBarController.xib in Resources */,
+				4A1B9DA91FBE6BA900799DF4 /* MealViewController.xib in Resources */,
 				4A37697E1FA9025A0012B6FD /* WelcomeViewController.xib in Resources */,
 				92E77B3A1FBB794400B28E93 /* ActiveViewController.xib in Resources */,
 				92124A841FB23C2B0088A7A7 /* WeighViewController.xib in Resources */,
@@ -586,10 +611,12 @@
 			files = (
 				4A5B7B3B1FBB7D4400847037 /* UICollectionView+Extensions.swift in Sources */,
 				4A5B7B401FBB7D4400847037 /* ReuseableView.swift in Sources */,
+				4A5B7B501FBE5B9E00847037 /* UntintedButton.swift in Sources */,
 				4A450C5B1F9FBD590085C4D2 /* AppDelegate.swift in Sources */,
 				92124A871FB243C60088A7A7 /* TargetViewController.swift in Sources */,
 				4A450C511F9FB7900085C4D2 /* Coordinator.swift in Sources */,
 				4AD7F2711F98357C00A81BA8 /* AlertableError.swift in Sources */,
+				4A1B9DA81FBE6BA900799DF4 /* MealViewController.swift in Sources */,
 				4A5B7B281FBB768A00847037 /* Meal.swift in Sources */,
 				4A5B7B2B1FBB770E00847037 /* LocalMeal.swift in Sources */,
 				4A912F081F8EFC2500113581 /* CKWrapper.swift in Sources */,
@@ -615,6 +642,7 @@
 				92F637C51F98389900C01E56 /* MealPlanDayViewController.swift in Sources */,
 				4A450C561F9FB80D0085C4D2 /* LoadingViewController.swift in Sources */,
 				4A450C591F9FBB990085C4D2 /* AuthenticationCoordinator.swift in Sources */,
+				4A5B7B4D1FBDE49B00847037 /* SMTabBarController.swift in Sources */,
 				4A5B7B3E1FBB7D4400847037 /* UIColor+Extensions.swift in Sources */,
 				4A5B7B451FBB7D4400847037 /* UINib+Extensions.swift in Sources */,
 				4A450C4E1F9FB7720085C4D2 /* AppCoordinator.swift in Sources */,

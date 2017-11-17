@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class MainCoordinator: Coordinator, MealPlanDayViewControllerDelegate {
+public final class MainCoordinator: Coordinator, MealPlanDayViewControllerDelegate, MealViewControllerDelegate {
     
     fileprivate let rootViewController: UIViewController
     
@@ -17,30 +17,29 @@ public final class MainCoordinator: Coordinator, MealPlanDayViewControllerDelega
     }
     
     public func start() {
-        let tabBarController = UITabBarController()
+        
         
         let graphsViewController = UIViewController()
-        graphsViewController.tabBarItem.image = #imageLiteral(resourceName: "Graphs")
+        graphsViewController.tabBarItem.image = #imageLiteral(resourceName: "stats")
         graphsViewController.tabBarItem.title = "Graphs"
         
         
         let mealsViewController = MealPlanDayViewController()
         mealsViewController.delegate = self
-        let mealsNavigationController = UINavigationController(rootViewController: mealsViewController)
-        
-        mealsNavigationController.tabBarItem.image = #imageLiteral(resourceName: "Meal")
-        mealsNavigationController.tabBarItem.title = "Meals"
+        mealsViewController.tabBarItem.image = #imageLiteral(resourceName: "meals_gray")
+        mealsViewController.tabBarItem.selectedImage = #imageLiteral(resourceName: "meals")
         
         let profileViewController = UIViewController()
-        profileViewController.tabBarItem.image = #imageLiteral(resourceName: "Profile")
+        profileViewController.tabBarItem.image = #imageLiteral(resourceName: "user")
         profileViewController.tabBarItem.title = "Profile"
         
-        tabBarController.viewControllers = [graphsViewController, mealsNavigationController, profileViewController]
-        tabBarController.selectedIndex = 1
+        let tabBarController = SMTabBarController(viewControllers: [graphsViewController, mealsViewController, profileViewController], selectedIndex: 1)
         
         rootViewController.present(tabBarController, animated: true, completion: nil)
     }
 
+    
+    //MARK:- MealPlanDayViewControllerDelegate
     
     public func mealPlanDayViewControllerDidLoad(controller: MealPlanDayViewController) {
         controller.meals = LocalMeal.samples()
@@ -50,4 +49,22 @@ public final class MainCoordinator: Coordinator, MealPlanDayViewControllerDelega
     public func mealPlanDayViewControllerShouldLoadMore(controller: MealPlanDayViewController) {
         
     }
+    
+    public func mealPlanDayViewControllerMealSelected(_ meal: Meal, controller: MealPlanDayViewController) {
+        let mealViewController = MealViewController(meal: meal)
+        mealViewController.delegate = self
+        controller.present(mealViewController, animated: true, completion: nil)
+    }
+    
+    //MARK:- MealViewControllerDelegate
+    
+    public func mealViewControllerDidLoad(controller: MealViewController) {
+        
+    }
+    
+    public func profileButtonPressed(controller: MealViewController) {
+        
+    }
+    
+    
 }

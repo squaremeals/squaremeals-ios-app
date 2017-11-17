@@ -10,6 +10,7 @@ import UIKit
 
 public final class MealTableViewCell: UITableViewCell, ReusableView {
 
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var coverImageView: UIImageView!
     @IBOutlet weak var caloriesLabel: UILabel!
     @IBOutlet weak var carbsLabel: UILabel!
@@ -17,10 +18,11 @@ public final class MealTableViewCell: UITableViewCell, ReusableView {
     
     public func configure(for meal: Meal) {
         
+        titleLabel.text = meal.label.uppercased()
         coverImageView.image = meal.coverImage
-        caloriesLabel.text = String(format: "%.1f", meal.calories)
-        carbsLabel.text = String(format: "%.1f", meal.carbohydrates)
-        fatsLabel.text = String(format: "%.1f", meal.fats)
+        caloriesLabel.text = String(format: "%.0f", meal.calories)
+        carbsLabel.text = String(format: "%.0f", meal.carbohydrates)
+        fatsLabel.text = String(format: "%.0f", meal.fats)
         
     }
     
